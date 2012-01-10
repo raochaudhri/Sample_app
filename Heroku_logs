@@ -1,0 +1,101 @@
+2012-01-03T22:43:20+00:00 heroku[web.1]: Unidling
+2012-01-03T22:43:20+00:00 heroku[web.1]: State changed from down to created
+2012-01-03T22:43:20+00:00 heroku[web.1]: State changed from created to starting
+2012-01-03T22:43:23+00:00 heroku[web.1]: Starting process with command `thin -p 24254 -e production -R /home/heroku_rack/heroku.ru start`
+2012-01-03T22:43:27+00:00 heroku[web.1]: State changed from starting to up
+2012-01-03T22:43:26+00:00 app[web.1]: >> Thin web server (v1.2.6 codename Crazy Delicious)
+2012-01-03T22:43:26+00:00 app[web.1]: >> Maximum connections set to 1024
+2012-01-03T22:43:26+00:00 app[web.1]: >> Listening on 0.0.0.0:24254, CTRL+C to stop
+2012-01-03T22:43:29+00:00 heroku[router]: GET young-frost-7927.heroku.com/ dyno=web.1 queue=0 wait=0ms service=43ms status=200 bytes=5907
+2012-01-03T22:43:29+00:00 app[web.1]: cache: [GET /] miss
+2012-01-03T22:43:29+00:00 app[web.1]: 
+2012-01-03T22:43:29+00:00 app[web.1]: 
+2012-01-03T22:43:29+00:00 app[web.1]: Started GET "/assets/rails.png" for 71.93.173.249 at 2012-01-03 14:43:29 -0800
+2012-01-03T22:43:29+00:00 heroku[router]: GET young-frost-7927.heroku.com/assets/rails.png dyno=web.1 queue=0 wait=0ms service=473ms status=500 bytes=728
+2012-01-03T22:43:30+00:00 heroku[router]: GET young-frost-7927.heroku.com/favicon.ico dyno=web.1 queue=0 wait=0ms service=10ms status=200 bytes=0
+2012-01-03T22:43:29+00:00 app[web.1]: 
+2012-01-03T22:43:29+00:00 app[web.1]: ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+2012-01-03T22:43:29+00:00 app[web.1]:   
+2012-01-03T22:43:
+29+00:00 app[web.1]: 
+2012-01-03T22:43:29+00:00 app[web.1]: cache: [GET /assets/rails.png] miss
+2012-01-03T22:43:29+00:00 app[web.1]: 
+2012-01-03T22:43:30+00:00 app[web.1]: cache: [GET /favicon.ico] miss
+2012-01-03T23:45:44+00:00 heroku[web.1]: Idling
+2012-01-03T23:45:46+00:00 heroku[web.1]: State changed from up to down
+2012-01-03T23:45:46+00:00 heroku[web.1]: State changed from down to created
+2012-01-03T23:45:46+00:00 heroku[web.1]: State changed from created to starting
+2012-01-03T23:45:48+00:00 heroku[web.1]: Starting process with command `thin -p 9226 -e production -R /home/heroku_rack/heroku.ru start`
+2012-01-03T23:45:48+00:00 heroku[web.1]: Stopping process with SIGTERM
+2012-01-03T23:45:48+00:00 app[web.1]: >> Stopping ...
+2012-01-03T23:45:48+00:00 heroku[web.1]: Process exited
+2012-01-03T23:45:51+00:00 app[web.1]: >> Thin web server (v1.2.6 codename Crazy Delicious)
+2012-01-03T23:45:51+00:00 app[web.1]: >> Maximum connections set to 1024
+2012-01-03T23:45:51+00:00 app[web.1]: >> Listening on 0.0.0.0:9226, CTRL+C to stop
+2012-01-03T23:45:52+00:00 heroku[web.1]: State changed from starting to up
+2012-01-04T00:32:24+00:00 heroku[slugc]: Slug compilation started
+2012-01-04T00:32:40+00:00 heroku[api]: Deploy a33f8f8 by raochaudhri.it@gmail.com
+2012-01-04T00:32:40+00:00 heroku[api]: Release v5 created by raochaudhri.it@gmail.com
+2012-01-04T00:32:41+00:00 heroku[web.1]: State changed from up to bouncing
+2012-01-04T00:32:41+00:00 heroku[web.1]: State changed from bouncing to created
+2012-01-04T00:32:41+00:00 heroku[web.1]: State changed from created to starting
+2012-01-04T00:32:41+00:00 heroku[slugc]: Slug compilation finished
+2012-01-04T00:32:43+00:00 heroku[web.1]: Starting process with command `thin -p 54980 -e production -R /home/heroku_rack/heroku.ru start`
+2012-01-04T00:32:43+00:00 heroku[web.1]: Stopping process with SIGTERM
+2012-01-04T00:32:43+00:00 app[web.1]: >> Stopping ...
+2012-01-04T00:32:43+00:00 heroku[web.1]: Process exited
+2012-01-04T00:32:47+00:00 app[web.1]: >> Thin web server (v1.2.6 codename Crazy Delicious)
+2012-01-04T00:32:47+00:00 app[web.1]: >> Maximum connections set to 1024
+2012-01-04T00:32:47+00:00 app[web.1]: >> Listening on 0.0.0.0:54980, CTRL+C to stop
+2012-01-04T00:32:48+00:00 heroku[web.1]: State changed from starting to up
+2012-01-04T00:33:13+00:00 app[web.1]: 
+2012-01-04T00:33:13+00:00 app[web.1]: 
+2012-01-04T00:33:13+00:00 app[web.1]: Started GET "/assets/rails.png" for 71.93.173.249 at 2012-01-03 16:33:13 -0800
+2012-01-04T00:33:14+00:00 app[web.1]: 
+2012-01-04T00:33:14+00:00 app[web.1]: ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+2012-01-04T00:33:14+00:00 app[web.1]:   
+2012-01-04T00:33:14+00:00 app[web.1]: 
+2012-01-04T00:33:14+00:00 app[web.1]: 
+2012-01-04T00:33:14+00:00 app[web.1]: cache: [GET /assets/rails.png] miss
+2012-01-04T00:33:14+00:00 heroku[router]: GET young-frost-7927.heroku.com/assets/rails.png dyno=web.1 queue=0 wait=0ms service=648ms status=500 bytes=728
+2012-01-04T00:33:21+00:00 app[web.1]: 
+2012-01-04T00:33:21+00:00 app[web.1]: Started GET "/home" for 71.93.173.249 at 2012-01-03 16:33:21 -0800
+2012-01-04T00:33:21+00:00 app[web.1]: 
+2012-01-04T00:33:21+00:00 app[web.1]: 
+2012-01-04T00:33:21+00:00 app[web.1]: 
+2012-01-04T00:33:21+00:00 app[web.1]: ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+2012-01-04T00:33:21+00:00 app[web.1]:   
+2012-01-04T00:33:21+00:00 app[web.1]: 
+2012-01-04T00:33:21+00:00 app[web.1]: cache: [GET /home] miss
+2012-01-04T00:33:21+00:00 heroku[router]: GET young-frost-7927.heroku.com/home dyno=web.1 queue=0 wait=0ms service=8ms status=500 bytes=728
+2012-01-04T00:33:28+00:00 app[web.1]: 
+2012-01-04T00:33:28+00:00 app[web.1]: 
+2012-01-04T00:33:28+00:00 app[web.1]: Started GET "/about" for 71.93.173.249 at 2012-01-03 16:33:28 -0800
+2012-01-04T00:33:28+00:00 heroku[router]: GET young-frost-7927.heroku.com/about dyno=web.1 queue=0 wait=0ms service=14ms status=500 bytes=728
+2012-01-04T00:33:28+00:00 app[web.1]: ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+2012-01-04T00:33:28+00:00 app[web.1]:   
+2012-01-04T00:33:28+00:00 app[web.1]: 
+2012-01-04T00:33:28+00:00 app[web.1]: 
+2012-01-04T00:33:28+00:00 app[web.1]: cache: [GET /about] miss
+2012-01-04T00:33:28+00:00 app[web.1]: 
+2012-01-04T00:33:36+00:00 app[web.1]: 
+2012-01-04T00:33:36+00:00 app[web.1]: 
+2012-01-04T00:33:36+00:00 app[web.1]: Started GET "/contact" for 71.93.173.249 at 2012-01-03 16:33:36 -0800
+2012-01-04T00:33:36+00:00 heroku[router]: GET young-frost-7927.heroku.com/contact dyno=web.1 queue=0 wait=0ms service=5ms status=500 bytes=728
+2012-01-04T00:33:36+00:00 app[web.1]: 
+2012-01-04T00:33:36+00:00 app[web.1]: ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+2012-01-04T00:33:36+00:00 app[web.1]:   
+2012-01-04T00:33:36+00:00 app[web.1]: 
+2012-01-04T00:33:36+00:00 app[web.1]: 
+2012-01-04T00:33:36+00:00 app[web.1]: cache: [GET /contact] miss
+2012-01-04T00:33:36+00:00 heroku[nginx]: 71.93.173.249 - - [03/Jan/2012:16:33:36 -0800] "GET /contact HTTP/1.1" 500 728 "-" "Mozilla/5.0 (Ubuntu; X11; Linux x86_64; rv:8.0) Gecko/20100101 Firefox/8.0" young-frost-7927.heroku.com
+2012-01-04T00:33:43+00:00 app[web.1]: 
+2012-01-04T00:33:43+00:00 app[web.1]: 
+2012-01-04T00:33:43+00:00 app[web.1]: Started GET "/assets/rails.png" for 71.93.173.249 at 2012-01-03 16:33:43 -0800
+2012-01-04T00:33:43+00:00 heroku[router]: GET young-frost-7927.heroku.com/assets/rails.png dyno=web.1 queue=0 wait=0ms service=3ms status=500 bytes=728
+2012-01-04T00:33:43+00:00 app[web.1]: 
+2012-01-04T00:33:43+00:00 app[web.1]: ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+2012-01-04T00:33:43+00:00 app[web.1]:   
+2012-01-04T00:33:43+00:00 app[web.1]: 
+2012-01-04T00:33:43+00:00 app[web.1]: 
+2012-01-04T00:33:43+00:00 app[web.1]: cache: [GET /assets/rails.png] miss
