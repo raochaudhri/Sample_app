@@ -2,12 +2,12 @@ class Customer
 
   attr_accessor :C_name , :C_address, :C_email, :C_tele
 
-  def initialize ( newcusthash= {})
+  def initialize ( custhash= {})
 
-    @C_name = newcusthash[:C_name]
-    @C_address = newcusthash[:C_address]
-    @C_email = newcusthash[:C_email]
-    @C_tele = newcusthash[:C_tele]
+    @C_name = custhash[:C_name]
+    @C_address = custhash[:C_address]
+    @C_email = custhash[:C_email]
+    @C_tele = custhash[:C_tele]
 
   end
 
